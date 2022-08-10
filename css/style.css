@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merienda";
+}
+
+header {
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  background-color: white;
+}
+header nav img {
+  max-width: 60px;
+  float: left;
+}
+header nav span h1 {
+  display: inline-block;
+  /* float: left; */
+  padding-left: 10px;
+  text-transform: capitalize;
+  font-size: 1.3em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav > i {
+  margin-top: 15px;
+  color: grey;
+  font-size: 1.5em;
+  /* outline: 1px solid grey; */
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#banner img {
+  max-width: 100%;
+  position: relative;
+}
+#banner .welcome {
+  width: 80%;
+  /* max-width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  bottom: 40%;
+  left: 10%;
+}
+
+#banner h2 {
+  padding-left: 35px;
+  margin: 0;
+  color: white;
+  font-size: 2.5em;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+#banner .welcome i {
+  color: rgba(250, 242, 240, 0.5);
+  padding-top: 60px;
+  font-size: 2em;
+}
+
+#border {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 50px;
+  left: 300px;
+}
+.border-item {
+  height: 3px;
+  width: 35px;
+  background-color: rgba(250, 242, 240, 0.5);
+  margin: 0px 5px;
+}
+
+.border-item:hover {
+  background-color: white;
+}
+main .container {
+  padding: 20px 60px;
+}
+main #restau {
+  width: 80%;
+  background-color: #f8f9fa;
+  margin: auto;
+  padding: 0px 10px;
+}
+#restau img {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+main h2 {
+  font-size: 2em;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin-top: 35px;
+}
+
+#restau h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.6em;
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin-left: 3px;
+}
+
+#restau p {
+  margin: 0px;
+  font-weight: 100;
+  margin-bottom: 15px;
+  margin-left: 3px;
+}
+
+#restau h4 {
+  font-size: 1.25rem;
+  font-weight: 100;
+  margin: 10px 0px;
+  margin-left: 3.5px;
+}
+
+#restau #cuisine {
+  margin-top: 18px;
+}
+/* #F8F9FA */
+main .meat {
+  width: 80%;
+  background-color:#2e669e ;
+  margin: auto;
+  padding: 0px 15px;
+}
+main #menu img {
+  display: block;
+  margin: auto;
+  width: 500px;
+  max-height: 185px;
+  margin: 0.5px 0px;
+  border-radius: 2px 2px 0px 0px;
+
+}
+
+#menu .bgmenu {
+  background-color: white;
+ border: 0px 1px 1px 1px solid grey;
+  border-radius: 0px 0px 4px 4px;
+  /* box-shadow: 0px 0px 20px grey; */
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  
+}
+
+.bgmenu h3 {
+  margin: 0;
+  padding: 10px 7px 5px 7px;
+  box-sizing: border-box;
+  font-size: 1.4em;
+  font-weight: 100;
+}
+
+.bgmenu li {
+  padding: 8px 20px;
+  margin: 0;
+  font-weight: 100;
+  /* transform: translateX(10%); */
+  list-style: none;
+  font-size: 0.9em;
+}
+
+.bgmenu ul {
+  padding: 0;
+  margin: 0;
+}
+.bgmenu li::before {
+  content: "";
+  display: block;
+  position: relative;
+  margin: auto;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
