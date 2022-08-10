@@ -136,7 +136,7 @@ main h2 {
 /* #F8F9FA */
 main .meat {
   width: 80%;
-  background-color:#F8F9FA  ;
+  background-color: #f8f9fa;
   margin: auto;
   padding: 0px 15px;
 }
@@ -147,17 +147,15 @@ main #menu img {
   max-height: 185px;
   margin: 0.5px 0px;
   border-radius: 2px 2px 0px 0px;
-
 }
 
 #menu .bgmenu {
   background-color: white;
- border: 0px 1px 1px 1px solid grey;
+  border: 0px 1px 1px 1px solid grey;
   border-radius: 0px 0px 4px 4px;
   /* box-shadow: 0px 0px 20px grey; */
   box-sizing: border-box;
   padding-bottom: 10px;
-  
 }
 
 .bgmenu h3 {
