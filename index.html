@@ -40,6 +40,7 @@
         <div class="border-item"></div>
       </div>
     </section>
+
     <main>
       <div class="container">
         <h2>~ restaurant ~</h2>
@@ -117,13 +118,131 @@
             </div>
           </section>
         </article>
-        <h2>~ Reservation ~</h2>
+        <h2 id="title3">~ Reservation ~</h2>
         <article id="reserve">
-            <img src="images/reserve.jpg" alt="reserve">
-            <div>
-                
+          <div class="maindiv">
+            <div class="timetable">
+              <h3>timetables</h3>
             </div>
-
+            <div class="flexpls">
+              <div>
+                <h4>Lunch</h4>
+                <p>12:00 - 15:00</p>
+              </div>
+              <div>
+                <h4>Dinner</h4>
+                <p>19:30 - 23:30</p>
+              </div>
+            </div>
+          </div>
+          <form>
+            <div class="form-control-main">
+              <h4>Reserve</h4>
+              <label for="date">date</label>
+              <input
+                class="form-control"
+                type="date"
+                id="date"
+                value="date"
+                placeholder="mm/dd/yyyy"
+              />
+            </div>
+            <div class="form-control-main">
+              <h4>details</h4>
+              <label for="nom">name</label>
+              <input
+                class="form-control"
+                type="text"
+                id="nom"
+                value="name"
+                placeholder="name"
+              />
+            </div>
+            <div class="form-control-main">
+              <label for="time">timetables</label>
+              <input
+                class="form-control"
+                type="time"
+                id="time"
+                name="timetables"
+              />
+            </div>
+            <div class="form-control-main">
+              <label for="mail">email</label>
+              <input
+                class="form-control"
+                type="email"
+                id="mail"
+                name="email"
+                placeholder="email"
+              />
+            </div>
+            <div class="form-control-main">
+              <label for="guests">number of guests</label>
+              <input
+                class="form-control"
+                type="text"
+                id="guests"
+                name="guests"
+                placeholder="number of guests"
+              />
+            </div>
+            <div class="form-control-main">
+              <label for="phone">phone</label>
+              <input
+                class="form-control"
+                type="text"
+                id="phone"
+                value="phone"
+                placeholder="phone"
+              />
+            </div>
+            <div class="specialdiv">
+              <label for="requests">further requests</label>
+              <textarea
+                class="form-control"
+                rows="4"
+                placeholder="further requests"
+              ></textarea>
+            </div>
+            <div class="specialdiv">
+              <button class="form-control" type="submit">reserve</button>
+            </div>
+          </form>
+        </article>
+        <h2>~ our location ~</h2>
+        <article id="mapndadd">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4176.999099667266!2d-7.666868183443712!3d33.59816571209473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d306041585e7%3A0xb91ed398330cf3cd!2sANFAPLACE%20MALL!5e0!3m2!1sen!2sma!4v1660196632974!5m2!1sen!2sma"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="address-phone">
+            <h3>address</h3>
+            <p>Viale Enrico Fermi, 20159 Milan, Mailand (Lombardia)</p>
+            <h3>email:</h3>
+            <p>mail@example.com</p>
+          </div>
+          <section id="footer">
+            <div class="end">
+              <p>
+                follow us: <i class="fa-brands fa-square-facebook"></i
+                ><i class="fa-brands fa-instagram"></i>
+              </p>
+            </div>
+            <div class="end">
+              <p>copyright&copy;2018</p>
+            </div>
+            <div class="end">
+              <p>Powered by:<span>Rubik Technologies</span></p>
+            </div>
+          </section>
         </article>
       </div>
     </main>

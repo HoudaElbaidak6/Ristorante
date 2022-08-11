@@ -4,6 +4,7 @@ body {
   font-family: "Merienda";
 }
 
+/* ----------header---------- */
 header {
   padding: 10px;
   position: sticky;
@@ -37,6 +38,7 @@ header nav > i {
   box-sizing: border-box;
 }
 
+/* ----------banner---------- */
 #banner img {
   max-width: 100%;
   position: relative;
@@ -85,6 +87,7 @@ header nav > i {
 .border-item:hover {
   background-color: white;
 }
+/* ----------restau---------- */
 main .container {
   padding: 20px 60px;
 }
@@ -133,6 +136,9 @@ main h2 {
 #restau #cuisine {
   margin-top: 18px;
 }
+
+/* ----------Menu---------- */
+
 /* #F8F9FA */
 main .meat {
   width: 80%;
@@ -151,9 +157,9 @@ main #menu img {
 
 #menu .bgmenu {
   background-color: white;
- border-bottom: 1px solid lightgray;
- border-left:  1px solid lightgray;
- border-right:  1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
   border-radius: 0px 0px 4px 4px;
   /* box-shadow: 0px 0px 20px grey; */
   box-sizing: border-box;
@@ -192,16 +198,192 @@ main #menu img {
   margin-top: 0;
 }
 
-.main #reserve {
-    width: 80%;
+/* ----------Reservation---------- */
+
+#reserve {
+  width: 80%;
+  margin: auto;
+}
+.maindiv {
+  width: 95%;
+  height: 60vh;
+  margin: auto;
+  /* padding: 0px 15px; */
+  background: linear-gradient(
+      rgba(255, 253, 255, 0.5),
+      rgba(254, 255, 253, 0.7)
+    ),
+    url(../images/reserve.jpg) center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#title3 {
+  padding-top: 45px;
+  margin-bottom: 0px;
+}
+
+#reserve .timetable {
+  text-align: center;
+  font-size: 2.2em;
+  padding-bottom: 0px;
+  padding-top: 80px;
+  padding-right: 10px;
+  text-transform: capitalize;
+}
+
+#reserve .timetable h3 {
+  font-weight: lighter;
+  margin: 0;
+}
+
+#reserve .flexpls {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+#reserve .flexpls h4 {
+  font-size: 1.9em;
+  font-weight: 100;
+  margin: 0;
+}
+
+#reserve .flexpls p {
+  font-size: 1.3em;
+  font-weight: 100;
+  margin: 0;
+}
+
+#reserve label {
+  display: inline-block;
+}
+/* ----------form---------- */
+form .form-control {
+  display: block;
+  padding: 12px 15px;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 5px 0px;
+}
+form label {
+  margin: 5px 0px;
+  text-transform: capitalize;
+}
+
+form div h4 {
+  font-size: 1.8em;
+  margin: 0px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+form div {
+  width: 48%;
+  margin-bottom: 10px;
+}
+form {
+  width: 100%;
+  padding: 0px 20px 10px 20px;
+  box-sizing: border-box;
   background-color: #f8f9fa;
   margin: auto;
-  padding: 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-#reserve img {
-    opacity: 0.7;
-    display: block;
-    margin: auto;
-    width: 80%;
+.specialdiv {
+  display: block;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.specialdiv button {
+  background-color: #6c757d;
+  font-family: "Merienda";
+  font-size: 1em;
+  color: white;
+  text-transform: capitalize;
+}
 
+form ::placeholder {
+  font-family: "Merienda";
+  font-size: 1.2em;
+  line-height: 1.5px;
+  text-transform: capitalize;
+}
+
+/* ----------map and address---------- */
+main #mapndadd {
+  width: 80%;
+  margin: auto;
+}
+.map {
+  margin: auto;
+  width: 100%;
+}
+iframe {
+  margin: auto;
+  width: 100%;
+  height: 50vh;
+}
+#mapndadd .address-phone {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.address-phone h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.7em;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.address-phone p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* ----------idk what this is ---------- */
+
+#footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7px;
+  box-sizing: border-box;
+  /* margin-bottom: 30px; */
+  margin-top: 50px;
+}
+.end p {
+  margin: 0;
+  font-size: 1em;
+  text-transform: capitalize;
+}
+.end {
+  width: 30%;
+}
+/* icon hover :#0056B3 */
+.end p i {
+  color: #007bff;
+  font-size: 1.9em;
+  padding-left: 5px;
+}
+
+.end p i:hover {
+  color: #0056b3;
+}
+
+.end p span {
+  color: #007bff;
+  text-decoration: underline;
 }
