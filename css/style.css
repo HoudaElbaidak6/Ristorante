@@ -16,7 +16,8 @@ header nav img {
   max-width: 60px;
   float: left;
 }
-header nav span h1 {
+header nav span h1 
+ {
   display: inline-block;
   /* float: left; */
   padding-left: 10px;
@@ -38,10 +39,14 @@ header nav > i {
   box-sizing: border-box;
 }
 
+
 /* ----------banner---------- */
+#banner {
+  position: relative;
+}
 #banner img {
   max-width: 100%;
-  position: relative;
+ 
 }
 #banner .welcome {
   width: 80%;
@@ -89,7 +94,7 @@ header nav > i {
 }
 /* ----------restau---------- */
 main .container {
-  padding: 20px 60px;
+  padding: 20px 20px;
 }
 main #restau {
   width: 80%;
@@ -355,7 +360,7 @@ iframe {
 
 /* ----------idk what this is ---------- */
 
-#footer {
+footer {
   width: 100%;
   margin: auto;
   text-align: center;
@@ -364,7 +369,7 @@ iframe {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 7px;
+  padding: 10px 7px;
   box-sizing: border-box;
   /* margin-bottom: 30px; */
   margin-top: 50px;
@@ -375,7 +380,7 @@ iframe {
   text-transform: capitalize;
 }
 .end {
-  width: 30%;
+  width: 20%;
 }
 /* icon hover :#0056B3 */
 .end p i {
@@ -400,4 +405,9 @@ iframe {
   opacity: 0;}
    to {top: 0px;
   opacity: 1;}
+}
+
+
+@media screen and (min-width: 835px) {
+
 }
